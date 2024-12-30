@@ -11,15 +11,13 @@ This project is a full-stack application that includes a backend built with Nest
 
 ### Backend Setup
 
-1. Create a `.env` file in the `backend` directory with the following content:
+1. Copy the example environment file:
+   ```sh
+   cp backend/.env.example backend/.env
+   ```
+2. Update `backend/.env` with your configuration.
 
-    ```dotenv
-    UNSPLASH_ACCESS_KEY=your_unsplash_access_key_here
-    CLIENT_URL=http://localhost:3000
-    PORT=5000
-    ```
-
-2. Install dependencies and start the backend server:
+3. Install dependencies and start the backend server:
 
     ```bash
     cd backend
@@ -29,13 +27,13 @@ This project is a full-stack application that includes a backend built with Nest
 
 ### Frontend Setup
 
-1. Create a `.env` file in the `frontend` directory with the following content:
+1. Copy the example environment file:
+   ```sh
+   cp frontend/.env.example frontend/.env
+   ```
+2. Update `frontend/.env` with your configuration.
 
-    ```dotenv
-    NEXT_PUBLIC_API_BASE_URL=http://localhost:5000
-    ```
-
-2. Install dependencies and start the frontend server:
+3. Install dependencies and start the frontend server:
 
     ```bash
     cd frontend
